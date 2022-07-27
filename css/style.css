@@ -1,0 +1,62 @@
+/* //////////////////// FONTS GOOGLE //////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+/* //////////////////// FONTS GOOGLE //////////////////// */
+
+/*
+TITULO font-family: 'IBM Plex Mono', monospace;
+PARRAFO font-family: 'Didact Gothic', sans-serif;
+BOTON font-family: 'Inconsolata', monospace;*/
+
+
+.box-title404 {
+    margin: 50px auto;
+}
+.box-title404 h4 {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+.box-image404 {
+    padding: 20px;
+}
+.box-image404 img {
+    width: 100%;
+    height: auto;
+}
+.content-text404 {
+    width: 100%;
+    float: left;
+}
+.content-text404 h1 {
+    margin: 0 auto;
+    font-size: 48px;
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: normal;
+}
+.content-text404 p {
+    margin: 20px auto 40px auto;
+    font-size: 21px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.content-text404 a {
+    margin: 0;
+    display: block;
+    width: max-content;
+    background: #222;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    transition: all .5s;
+}
+
+@media only screen and (max-width: 768px){
+	.content-text404{
+		margin-bottom: 50px;
+	}
+}
